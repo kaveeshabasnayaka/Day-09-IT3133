@@ -10,7 +10,7 @@ export default function Index() {
       }}
     >
       <Image source={require('../assets/images/react-logo.png')} style={styles.logo}/>
-      <Text>Hello world</Text>
+      <Text style={styles.text}>Hello world</Text>
     </View>
   );
 }
@@ -22,5 +22,9 @@ const styles = StyleSheet.create({
     borderStyle:"solid",
     borderWidth:2,
     borderColor:"blue"
+  },
+  text:{
+    color:"green",
+    fontSize:36
   }
 })
